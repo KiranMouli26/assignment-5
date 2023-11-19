@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* background-color: red; */
+    width: 80%;
+    height: 60vh;
+    display: flex;
+    /* border: 2px solid red; */
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    height: 100vh;
+    /* background-color: black; */
+}
+.first{
+    background-color:violet; 
+    width: 45%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+
+}
+.circle{
+     border: 2px solid blue;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:blue;
+}
+.second{
+    /* border: 2px dotted red; */
+    width: 55%;
+}
+.id1,.id2,.id3,.id4{
+    /* border: 2px solid red; */
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin: 30px;
+    border-radius: 20px;
+    background-color:antiquewhite;
+}
+button{
+    border-radius: 25px;
+    text-align: center;
+    padding: 15px 50px;
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+.id5{
+    margin-left: 20px;
+}
+@media screen and (max-width:576px){
+    .container{
+        /* background-color: red; */
+        width: auto;
+        height: auto;
+        display: block;
+        /* border: 2px solid red; */
+    
+    }
+    body{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid blue;
+        height: auto;
+        text-align: center;
+        /* background-color: black; */
+    }
+    .first{
+        background-color:violet; 
+        width: auto;
+        height: auto;
+        display: block;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+        text-align: center;
+    
+    }
+    .circle{
+         border: 2px solid blue;
+        width: auto;
+        height: auto;
+        border-radius: 100px;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color:blue;
+        text-align: center;
+    }
+    .second{
+        /* border: 2px dotted red; */
+        width: 55%;
+        text-align: center;
+        margin: 30px;
+    }
+    .id1,.id2,.id3,.id4{
+        /* border: 2px solid red; */
+        height: auto;
+        display: block;
+        justify-content: space-evenly;
+        align-items: baseline;
+        margin: auto;
+        border-radius: 20px;
+        background-color:antiquewhite;
+        text-align: center;
+        margin: 30px;
+    }
+    button{
+        border-radius: 25px;
+        text-align: center;
+        padding: 15px 50px;
+        font-size: 20px;
+        margin-left: 20px;
+    
+    }
+    .id5{
+        margin-left: 20px;
+    }
+
+}
+
+
+
